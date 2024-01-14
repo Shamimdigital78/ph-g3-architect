@@ -1,13 +1,17 @@
 
-
-@media screen and(min-width:576px) and(max-width:960px) {
+/* for midium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
     header{
         padding: 50px;
     }
-    nav{
+    nav, .sec-2-team-features{
         flex-direction: column;
     }  
+    .col-1-left-img{
+        grid-template-columns: 1fr;
+      }
 }
+/* for midium devices */
 
 /* for small devices */
 @media screen and (max-width:576px) {
@@ -16,9 +20,13 @@ header{
     padding: 20px;
 }
 /* flex directin to changed */
-nav{
+nav,.sec-2-team-features{
     flex-direction: column;
 }
+.col-1-left-img{
+  grid-template-columns: 1fr;
+}
+
 }
 /* for small devices */
 
