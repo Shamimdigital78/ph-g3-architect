@@ -71,7 +71,6 @@ nav h3 {
   /* for responsive */
 }
 
-
 /*  main sec-2 team /features in main start */
 
 main {
@@ -114,11 +113,11 @@ main {
 }
 /*  main sec-2 team /features in main end */
 
-
 /* sec 3 love-enjoy architect start */
 .love-enjoy {
   display: flex;
   margin: 80px auto;
+  gap: 50px;
 }
 .upper-content h3 {
   color: #131313;
@@ -137,7 +136,10 @@ main {
   max-width: 514px;
 }
 .service-name {
-  max-width: 515px;
+  max-width: 500px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.09);
 }
 .service-name h4 {
   color: #131313;
@@ -148,6 +150,34 @@ main {
   color: #727272;
   font-size: 1rem;
   font-weight: 400;
+}
+
+
+
+.ten-yrs-badge {
+  border-radius: 10px;
+  background: #ff900e;
+  width: 342px;
+  position: relative;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  bottom: 100px;
+  right: 100px;
+
+}
+.ten-yrs-badge h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+.ten-yrs-badge p {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
 }
 /* sec 3 love-enjoy architect end */
 
@@ -194,42 +224,52 @@ main {
 /* sponsor start */
 .sponsors {
   margin-top: 120px;
-
 }
 .sponsor-contents {
   text-align: center;
   margin-bottom: 30px;
 }
-.sponsor-contents h2 {
+.sponsors h2 {
   color: #131313;
   font-size: 3rem;
   font-weight: 700;
+  text-align: center;
 }
-.sponsor-contents p {
+.sponsors p {
   color: #727272;
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 50px;
 }
-
+.sponsor-images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 90px;
+  width: 165px;
+  gap: 30px;
+  margin: 0 auto;
+}
 /* sponsor end */
 
 /* footer start*/
 footer p {
   color: #424242;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 400;
   align-items: center;
+  padding-top: 40px;
 }
-footer{
-    border-radius: 5px;
-background: #FFF4E7;
-max-width: 1440px;
-height: 100px;
-text-align: center;
+footer {
+  border-radius: 5px;
+  background: #fff4e7;
+  max-width: 1440px;
+  height: 100px;
+  text-align: center;
 
-margin: 130px auto 5px auto;
+  margin: 130px auto 5px auto;
 }
 
 /* footer end */

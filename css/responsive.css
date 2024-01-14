@@ -4,9 +4,9 @@
     header{
         padding: 50px;
     }
-    nav, .sec-2-team-features, .facts-cards{
+    nav, .sec-2-team-features, .facts-cards, .sponsor-images{
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
     }  
     .col-1-left-img{
         grid-template-columns: 1fr;
@@ -21,9 +21,9 @@ header{
     padding: 20px;
 }
 /* flex directin to changed */
-nav,.sec-2-team-features, .facts-cards{
+nav,.sec-2-team-features, .facts-cards, .sponsor-images{
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 .col-1-left-img{
   grid-template-columns: 1fr;
