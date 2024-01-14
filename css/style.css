@@ -5,6 +5,7 @@
 header {
   background: rgba(255, 144, 14, 0.1);
   padding: 50px 240px;
+  margin-bottom: 80px;
 }
 nav {
   display: flex;
@@ -58,13 +59,55 @@ nav h3 {
   margin-bottom: 50px;
   cursor: pointer;
 }
-.banner-content{
-   max-width: 800px;
-   text-align: center;
-   /* content in middle margin-0 auto / or  flex */
-   margin: 0 auto;
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  /* content in middle margin-0 auto / or  flex */
+  margin: 0 auto;
 }
-.banner img{
-   width: 100%;
-    /* for responsive */
+.banner img {
+  width: 100%;
+  /* for responsive */
+}
+
+/*  main sec-2 team /features in main */
+
+main {
+  margin: 80px auto;
+  max-width: 1440px;
+
+}
+.sec-2-team-features {
+  display: flex;
+  align-items: center;
+}
+/* create gride layout for images/give little gap1 */
+.col-1-left-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.col-2-right-content {
+  padding-left: 4.5rem;
+}
+.col-2-right-content h2 {
+  color: #727272;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.of-Our {
+  color: #131313;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.features {
+  color: #ff900e;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.col-2-right-content p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
