@@ -4,30 +4,35 @@
     header{
         padding: 50px;
     }
-    nav, .sec-2-team-features{
+    nav, .sec-2-team-features, .facts-cards{
         flex-direction: column;
+        align-items: center;
     }  
     .col-1-left-img{
         grid-template-columns: 1fr;
       }
 }
-/* for midium devices */
+/* for midium devices top */
 
-/* for small devices */
+/* for small devices bottom */
 @media screen and (max-width:576px) {
     
 header{
     padding: 20px;
 }
 /* flex directin to changed */
-nav,.sec-2-team-features{
+nav,.sec-2-team-features, .facts-cards{
     flex-direction: column;
+    align-items: center;
 }
 .col-1-left-img{
   grid-template-columns: 1fr;
 }
+.facts-cards .card{
+    margin-bottom: 10px;
+}
 
 }
-/* for small devices */
+/* for small devices top */
 
 

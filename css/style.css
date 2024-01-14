@@ -1,3 +1,4 @@
+/* universal */
 * {
   font-family: "Work Sans", sans-serif;
 }
@@ -33,7 +34,7 @@ nav h3 {
   /* 1rem=16px */
   font-weight: 700;
 }
-/* Banner */
+/* Banner css */
 .banner h1 {
   color: #131313;
   text-align: center;
@@ -70,7 +71,8 @@ nav h3 {
   /* for responsive */
 }
 
-/*  main sec-2 team /features in main */
+
+/*  main sec-2 team /features in main start */
 
 main {
   margin: 80px auto;
@@ -111,6 +113,9 @@ main {
   margin-bottom: 30px;
 }
 /*  main sec-2 team /features in main end */
+
+
+/* sec 3 love-enjoy architect start */
 .love-enjoy {
   display: flex;
   margin: 80px auto;
@@ -120,6 +125,8 @@ main {
   font-size: 3rem;
   font-weight: 700;
   max-width: 514px;
+  border-left: 5px solid #ff900e;
+  padding-left: 10px;
   /* content in middle margin-0 auto / or  flex */
   /* margin: 0 auto; */
 }
@@ -142,8 +149,12 @@ main {
   font-size: 1rem;
   font-weight: 400;
 }
-/*  main sec-2 team /features in main end */
-/* some facts start */
+/* sec 3 love-enjoy architect end */
+
+/* sec-4 some facts start */
+.some-facts {
+  margin-bottom: 80px;
+}
 .some-facts h3 {
   color: #131313;
   font-size: 3rem;
@@ -154,4 +165,71 @@ main {
   font-size: 1rem;
   font-weight: 400;
   max-width: 514px;
+  margin-bottom: 80px;
 }
+.facts-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.facts-cards .card {
+  border-radius: 10px;
+  border: 1px solid #ff900e;
+  width: 240px;
+  height: 240px;
+  text-align: center;
+  padding: 30px 30px;
+}
+.card p {
+  color: #727272;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.card h2 {
+  color: #424242;
+  font-size: 3rem;
+  font-weight: 600;
+}
+/* sec-4 some facts end */
+
+/* sponsor start */
+.sponsors {
+  margin-top: 120px;
+
+}
+.sponsor-contents {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sponsor-contents h2 {
+  color: #131313;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.sponsor-contents p {
+  color: #727272;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* sponsor end */
+
+/* footer start*/
+footer p {
+  color: #424242;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  align-items: center;
+}
+footer{
+    border-radius: 5px;
+background: #FFF4E7;
+max-width: 1440px;
+height: 100px;
+text-align: center;
+
+margin: 130px auto 5px auto;
+}
+
+/* footer end */
