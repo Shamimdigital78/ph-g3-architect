@@ -75,7 +75,6 @@ nav h3 {
 main {
   margin: 80px auto;
   max-width: 1440px;
-
 }
 .sec-2-team-features {
   display: flex;
@@ -110,4 +109,49 @@ main {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 30px;
+}
+/*  main sec-2 team /features in main end */
+.love-enjoy {
+  display: flex;
+  margin: 80px auto;
+}
+.upper-content h3 {
+  color: #131313;
+  font-size: 3rem;
+  font-weight: 700;
+  max-width: 514px;
+  /* content in middle margin-0 auto / or  flex */
+  /* margin: 0 auto; */
+}
+.upper-content p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 514px;
+}
+.service-name {
+  max-width: 515px;
+}
+.service-name h4 {
+  color: #131313;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.service-name p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+}
+/*  main sec-2 team /features in main end */
+/* some facts start */
+.some-facts h3 {
+  color: #131313;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.some-facts p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  max-width: 514px;
 }
