@@ -4,12 +4,20 @@
     header{
         padding: 50px;
     }
-    nav, .sec-2-team-features, .facts-cards, .sponsor-images{
+    nav, 
+    .sec-2-team-features, 
+    .facts-cards, 
+    .sponsor-images, 
+    .love-enjoy{
         flex-direction: column;
-        /* align-items: center; */
+        /*  for align-items: center; */
     }  
     .col-1-left-img{
         grid-template-columns: 1fr;
+      }
+      .ten-yrs-badge {
+        left: 5px; 
+        padding: 15px;
       }
 }
 /* for midium devices top */
@@ -20,16 +28,27 @@
 header{
     padding: 20px;
 }
-/* flex directin to changed */
-nav,.sec-2-team-features, .facts-cards, .sponsor-images{
+/* flex direction to changed */
+nav,
+.sec-2-team-features, 
+.facts-cards, 
+.sponsor-images, .love-enjoy{
     flex-direction: column;
-    /* align-items: center; */
 }
 .col-1-left-img{
   grid-template-columns: 1fr;
 }
 .facts-cards .card{
     margin-bottom: 10px;
+}
+.right-image img{
+    width: 100%;
+    margin-left: 0;
+}
+
+ .ten-yrs-badge {
+  left: 5px; 
+  padding: 15px;
 }
 
 }

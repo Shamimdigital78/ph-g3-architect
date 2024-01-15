@@ -152,7 +152,10 @@ main {
   font-weight: 400;
 }
 
-
+.right-image img{
+    height: 65%;
+    margin-left: 100px;
+}
 
 .ten-yrs-badge {
   border-radius: 10px;
