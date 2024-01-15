@@ -19,16 +19,18 @@
         left: 5px; 
         padding: 15px;
       }
+      .right-image img{
+        width: 80%;
+      
+    }
 }
-/* for midium devices top */
+/* for tablet devices top */
 
 /* for small devices bottom */
-@media screen and (max-width:576px) {
-    
-header{
+@media screen and (max-width:576px) {   
+header {
     padding: 20px;
 }
-/* flex direction to changed */
 nav,
 .sec-2-team-features, 
 .facts-cards, 
@@ -45,12 +47,10 @@ nav,
     width: 100%;
     margin-left: 0;
 }
-
  .ten-yrs-badge {
   left: 5px; 
   padding: 15px;
 }
-
 }
 /* for small devices top */
 
